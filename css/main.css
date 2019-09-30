@@ -9,12 +9,19 @@ img {
 .first {
   font-weight: bold;
   font-size: 1.125rem;
+  line-height: 1.5;
 }
 
 h1, h2 {
   font-size: 1.5rem;
   font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
   color: #3f1622;
+}
+
+strong {
+  font-weight: normal;
 }
 
 nav ol {
@@ -35,10 +42,6 @@ figcaption {
   text-align: center;
   line-height: 1.5;
   font-style: italic;
-}
-
-strong {
-  font-weight: normal;
 }
 
 main {
@@ -66,27 +69,42 @@ cite:last-child {
   font-style: italic;
 }
 
-dl > dt:first-child {
+.firstdt {
   font-style: italic;
+  float: left;
+  clear: left;
+  margin: 0;
+  margin-top: 0;
 }
 
-dl > dd:first-child {
+.firstdd {
   font-style: italic;
+  margin: 0 0 0 90px;
+  padding: 0;
+  white-space: pre;
 }
 
-dl > dt {
+dl > dt:not(.firstdt) {
   font-weight: bold;
+  line-height: 1.5;
+}
+
+dl > dd:not(.firstdd) {
+  line-height: 1.5;
 }
 
 ul {
   list-style-type: circle;
+  line-height: 1.5;
 }
 
 a {
   color: #8f2440;
+  line-height: 1.5;
   text-decoration: none;
 }
 
 p:last-of-type {
   font-weight: normal;
+  line-height: 1.5;
 }
