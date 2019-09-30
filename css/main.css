@@ -17,7 +17,7 @@ h1, h2 {
   color: #3f1622;
 }
 
-nav ol{
+nav ol {
   line-height: 1.5;
   font-size: 1.125rem;
   color: #8f2440;
@@ -56,12 +56,12 @@ a:hover {
 }
 
 footer {
-  font-size: 0.8rem;
+  font-size: .8rem;
   font-style: normal;
 }
 
 cite:last-child {
-  font-size: 0.8rem;
+  font-size: .8rem;
   font-style: italic;
 }
 
