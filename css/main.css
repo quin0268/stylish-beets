@@ -1,3 +1,16 @@
+html {
+  background-color: #c9b5ab;
+}
+
+img {
+  width: 100%;
+}
+
+p:first-of-type {
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
 h1, h2 {
   font-size: 1.5rem;
   font-family: "PT Sans", sans-serif;
@@ -5,18 +18,41 @@ h1, h2 {
 }
 
 nav ol{
+  line-height: 1.5;
   font-size: 1.125rem;
   color: #8f2440;
+  list-style-type: none;
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
+}
+
+aside ol {
+  list-style-type: lower-greek;
+}
+
+figcaption {
+  text-align: center;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+strong {
+  font-weight: normal;
 }
 
 main {
-  background-color: #c9b5ab;
   font-family: "PT Serif", serif;
 }
 
-blockquote > p {
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
+.quote {
   font-style: italic;
-  font-size: 1.5rem;
+  font-size: 10.5rem;
+  line-height: 1.5;
 }
 
 footer {
@@ -24,7 +60,33 @@ footer {
   font-style: normal;
 }
 
-cite:last-of-type {
+cite:last-child {
   font-size: 0.8rem;
   font-style: italic;
+}
+
+dl > dt:first-child {
+  font-style: italic;
+}
+
+dl > dd:first-child {
+  font-style: italic;
+  font-weight: normal;
+}
+
+dl > dt {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+p:last-of-type {
+  font-weight: normal;
 }
